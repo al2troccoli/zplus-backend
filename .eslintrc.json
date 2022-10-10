@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+      "prettier/prettier": "error",
+      "camelcase": "off",
+      "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+      "semi": [2, "never"]
+    }
+}
